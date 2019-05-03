@@ -19,6 +19,6 @@ img[:,:] =[255,255,255]
 cv2.imwrite('D:\\GitHub\\opencv4\\OpenCV4\\whiteImage.jpg',img)
 cv2.imshow('img4',img)
 
-
+#파일생성
 cv2.waitKey(0)
 cv2.destroyAllWindows()
