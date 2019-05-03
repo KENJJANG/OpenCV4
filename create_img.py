@@ -15,6 +15,10 @@ img[:,:] =[0,0,255]
 cv2.imwrite('D:\\GitHub\\opencv4\\OpenCV4\\redImage.jpg',img)
 cv2.imshow('img3',img)
 
+img[:,:] =[255,255,255]
+cv2.imwrite('D:\\GitHub\\opencv4\\OpenCV4\\whiteImage.jpg',img)
+cv2.imshow('img4',img)
+
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
